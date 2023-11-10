@@ -8,7 +8,7 @@ import ReturnsAtom from './atoms/returns.atom'
 import CartAtom from './atoms/cart.atom'
 const AmazonHeader = () => {
   return (
-    <div className='p-3 w-full bg-black flex items-center justify-around'>
+    <div className='p-3 w-full  bg-gray-900 flex items-center justify-around'>
       <Image className='invert' alt='amazon-logo' src={require('../../../public/amazon/logo.png')} width={60} height={20} />
       <LocationAtom />
       <SearchAtom />
